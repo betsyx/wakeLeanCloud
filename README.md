@@ -6,7 +6,7 @@
 
 1. Fork此项目
 2. 添加一个名为`GITHUB_TOKEN`的Token，并为赋予`repo`，`admin:repo_hook` ， `workflow`的权限
-3. 添加名为`SITE`的Secrets，内容为自己管理后台地址。多个请用英文逗号分隔
+3. 添加名为`DOMAIN`的Secrets，内容为自己管理后台地址。多个请用英文逗号分隔
 
 详细教程请参考[优雅解决LeanCloud流控问题](https://noheart.cn/#开始尝试)
 
