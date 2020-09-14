@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: "*/2 0-15 * * *"
+    - cron: "0 */4 * * *"
   watch:
     types: [started]
    
@@ -43,4 +43,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        betsy_token: ${{ secrets.BETSY_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
